@@ -39,6 +39,9 @@
             <th scope="col">Action</th>
         </tr>
         </thead>
+
+
+        <a href=""> Edit</a>
         <tbody>
         <c:forEach var="employee" items="${employees}">
             <tr>

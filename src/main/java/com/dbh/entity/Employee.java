@@ -1,17 +1,15 @@
 package com.dbh.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @Data
+@Builder
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Employee {
 
-    private int id;
+    private int employeeId;
 
     private String name;
 
